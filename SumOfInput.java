@@ -19,8 +19,14 @@ public class SumOfInput
     }
     
     public Integer oneToNumber(Integer numberToSum){
-
-        return sum;
+        int summ = 0;
+        int counter = 1;
+        while(counter <= numberToSum){
+         summ += counter;
+         counter++;
+        }
+        return summ;
+        
     }
 
 }
